@@ -13,3 +13,7 @@ KillingCheats:CreateButton("Use Super Luck Potion", function()
 while wait(0.2) do game:GetService("ReplicatedStorage").Events.InventoryEvent:FireServer("Equip","Super Luck Potion","Usable") end
 
 end)
+
+KillingCheats:CreateButton("Fps Booster", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/FPS%20Boost"))()
+end)
