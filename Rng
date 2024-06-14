@@ -1,0 +1,15 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Horrors RNG")
+
+local KillingCheats = PhantomForcesWindow:NewSection("ติ้กต้นอ้น")
+
+KillingCheats:CreateButton("Rejoin", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ersQePKi"))()
+end)
+
+KillingCheats:CreateButton("Use Super Luck Potion", function()
+
+while wait(0.2) do game:GetService("ReplicatedStorage").Events.InventoryEvent:FireServer("Equip","Super Luck Potion","Usable") end
+
+end)
